@@ -1,60 +1,83 @@
-# 🔬 SOC Home Lab
+# 🔬 SOC Home Lab (SIEM-Based Threat Detection Lab)
 
-A personal Security Operations Center (SOC) lab built for 
-practicing threat detection, log analysis, and incident response.
+A hands-on Security Operations Center (SOC) lab built to simulate real-world cyber attacks and practice detection, analysis, and incident response using SIEM tools.
 
 ---
 
 ## 🎯 Objective
+Design and implement a virtual SOC environment to:
+- Simulate real-world cyber attacks
+- Monitor and analyze logs
+- Detect threats using SIEM
+- Perform incident response investigations
 
-Build a virtualized environment to simulate real-world attacks 
-and practice detecting them using SIEM tools.
+---
+
+## 🧱 Lab Architecture
+- 🖥️ Windows Server (Target Machine)
+- 🐧 Kali Linux (Attacker Machine)
+- 📊 SIEM (Splunk / Elastic Stack)
+- 🌐 Internal Virtual Network (Isolated Environment)
 
 ---
 
 ## 🛠 Tools & Technologies
 
 | Tool | Purpose |
-|------|---------|
-| Splunk / Elastic | SIEM & Log Analysis |
-| Kali Linux | Attack Simulation |
-| Windows Server | Target Machine |
-| Wireshark | Network Traffic Analysis |
+|------|--------|
+| Splunk / ELK Stack | Log analysis & SIEM |
+| Kali Linux | Attack simulation |
+| Windows Server | Target system |
+| Wireshark | Network traffic analysis |
 | VirtualBox / VMware | Virtualization |
 
 ---
 
-## 📋 Lab Setup
+## ⚙️ Lab Setup
 
-- [ ] Install VirtualBox
-- [ ] Set up Kali Linux VM
-- [ ] Set up Windows Server VM
-- [ ] Install and configure Splunk
-- [ ] Connect machines on internal network
+- [x] Install Virtualization Software  
+- [x] Configure Kali Linux (Attacker)  
+- [x] Configure Windows Server (Target)  
+- [x] Install and configure SIEM  
+- [x] Network configuration (internal lab)
 
 ---
 
-## 🔍 Investigations & Use Cases
+## 🔍 Use Cases & Detection Scenarios
 
 | # | Scenario | Status |
-|---|----------|--------|
-| 1 | Brute Force Detection | 🔄 In Progress |
-| 2 | Port Scan Detection | ⏳ Coming Soon |
-| 3 | Malware Traffic Analysis | ⏳ Coming Soon |
+|--|---------|--------|
+| 1 | Brute Force Attack Detection | 🔄 In Progress |
+| 2 | Port Scan Detection | ⏳ Planned |
+| 3 | Malware Traffic Analysis | ⏳ Planned |
 
 ---
 
-## 📊 Skills Practiced
+## 🧠 Skills Demonstrated
 
-- Log ingestion and parsing in Splunk
-- Writing detection rules (SPL queries)
-- Network traffic analysis with Wireshark
-- Incident documentation
+- Log ingestion & analysis using SIEM  
+- Writing detection queries (SPL)  
+- Network traffic analysis  
+- Threat detection & investigation  
+- Incident response documentation  
+
+---
+
+## 📊 Key Learning Outcomes
+
+- Understanding attacker behavior  
+- Mapping attacks to MITRE ATT&CK  
+- Improving alert analysis accuracy  
+- Reducing false positives  
+
+---
+
+## 📸 Screenshots
+> (To be added)
 
 ---
 
 ## 👤 Author
-
 **Yasser Mohamed Galal**  
 📧 ygalal895@gmail.com  
 📍 Cairo, Egypt
